@@ -1,0 +1,34 @@
+nav{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24%;
+    /* background-color: #0E1512; */
+    border-bottom: 0.1px solid rgb(77, 76, 76);
+}
+nav #logo{
+    width: 10%;
+    font-size: 20px;
+    text-align: justify;
+    color: #E8FDEE;
+}
+nav #logo strong{
+    color: #1AFF98;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#menu a{
+    color: #E8FDEE;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: oblique;
+    height: 50%;
+}
+#menu .active{
+    color: #00FF88;
+    border-bottom: 2px solid #00FF88;
+}
