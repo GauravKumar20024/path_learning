@@ -13,6 +13,10 @@ nav #logo{
     text-align: justify;
     color: #E8FDEE;
 }
+nav #logo a{
+    text-decoration: none;
+    color: #E8FDEE;
+}
 nav #logo strong{
     color: #1AFF98;
 }

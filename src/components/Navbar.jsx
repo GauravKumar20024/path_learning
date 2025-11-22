@@ -1,10 +1,12 @@
 import React from 'react'
 import "../Styles/Navbar.css"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav>
-       <div id='logo'><small>Path</small><strong>Learning</strong></div>
+       <div id='logo'>
+        <Link to={"/"}><small>Path</small><strong>Learning</strong></Link>
+       </div>
        <div id='menu'>
         <NavLink to={"/learn"}>Learn</NavLink>
         <NavLink to={"/practice"}>Practice</NavLink>
