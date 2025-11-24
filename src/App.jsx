@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <BrowserRouter basename='/path_learning'>
+    <BrowserRouter basename='/path_learning/'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Dashboard/>}/>
