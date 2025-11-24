@@ -3,6 +3,7 @@ import "./App.css"
 import Navbar from './components/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/mock_test' element={<Dashboard/>}/>
         <Route path='/progress_report' element={<Dashboard/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

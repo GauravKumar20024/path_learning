@@ -116,7 +116,6 @@
   margin-bottom: 30px;
   color: #1AFF98;
 }
-
 .about-block {
   display: flex;
   align-items: center;
@@ -135,19 +134,24 @@
 }
 
 .about-block img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   object-fit: contain;
-  /* filter: drop-shadow(0 0 8px #00FF88); */
+  mix-blend-mode: difference;
+  filter: drop-shadow(0 0 8px grey);
+  border-radius: 30px;
+  border: 0.1px solid #00FF88;
+  box-shadow: 0px 0px 10px grey;
 }
 
 .about-block .text h4 {
+  font-size: 1.5rem;
   color: #00FF88;
   margin-bottom: 10px;
 }
 
 .about-block .text p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.6;
 }
 

@@ -89,11 +89,11 @@ const Dashboard = () => {
         After every topic, apply your knowledge with interactive challenges, hands-on exercises, and mini coding tasks. Build real confidence by building real things.
       </p>
     </div>
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/057/727/052/small/smiling-businesswoman-holding-tablet-transparent-background-free-png.png" alt="JavaScript"/>
   </div>
 
   <div class="about-block reverse">
-    <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React" />
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/050/817/792/small/happy-smiling-business-woman-in-suit-with-hand-pointing-at-empty-space-standing-isolate-on-transparent-background-png.png" alt="React" />
     <div class="text">
       <h4>Test Yourself</h4>
       <p>
@@ -109,7 +109,7 @@ const Dashboard = () => {
         Your personal dashboard shows completed lessons, practice performance, test scores, and overall growth. Watch yourself improve day by day.
       </p>
     </div>
-    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Progress" />
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/055/721/782/small/business-woman-in-black-suit-and-white-shirt-png.png" alt="Progress" />
   </div>
 
   <div class="why-us">
@@ -123,10 +123,6 @@ const Dashboard = () => {
     </ul>
   </div>
 </section>
-
-
-
-
     </div>
   );
 }
