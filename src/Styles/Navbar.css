@@ -20,6 +20,11 @@ nav #logo a{
 nav #logo strong{
     color: #1AFF98;
 }
+nav #logo sup{
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 700;
+}
 #menu{
     display: flex;
     align-items: center;
