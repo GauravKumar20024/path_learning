@@ -16,11 +16,9 @@ const Learn = () => {
     <div class="left-text">
       <h1>Frontend Development</h1>
       <p class="sub">Confused about where to begin? we got you.</p>
-
       <p>
         Frontend development is basically everything you see and interact with on a website or app.
       </p>
-
       <p>
         Frontend development = building the user-facing part of a website/app. <br />
         It’s where <span>design meets code</span>.
@@ -29,18 +27,14 @@ const Learn = () => {
     <div class="right-image">
       <img src={image1} />
     </div>
-
   </div>
   <div class="middle-grid">
-
     <div class="middle-image">
       <img src={image2} />
     </div>
-
     <div class="middle-text">
       <h2>What a Frontend developer does?</h2>
       <p>A frontend dev turns designs into a real, working interface:</p>
-
       <ul>
         <li>Creates page layouts</li>
         <li>Makes sites responsive (mobile, tablet, desktop)</li>
@@ -49,49 +43,35 @@ const Learn = () => {
         <li>Improves performance and user experience</li>
       </ul>
     </div>
-
   </div>
   <div class="bottom-section">
     <h2>Core frontend technologies:</h2>
-    <p class="small">These are the big three:</p>
+    <p class="small">These are the technologies:</p>
 
     <div class="tech-cards">
-
       <div class="tech-card">
         <h3>HTML</h3>
         <p>– structure</p>
         <code>(headings, paragraphs, images, forms)</code>
       </div>
-
       <div class="tech-card">
         <h3>CSS</h3>
         <p>– styling</p>
         <code>(colors, fonts, layouts, animations, dark/light themes)</code>
       </div>
-
       <div class="tech-card">
         <h3>JavaScript</h3>
         <p>– logic & interaction</p>
         <code>(button clicks, form validation, dynamic content)</code>
-      </div>
-
+      </div> 
+      <div class="tech-card">
+        <h3>React JS</h3>
+        <p>–library for Single Page Application</p>
+        <code>(jsx,hooks,states,props,spa implementations)</code>
+      </div> 
     </div>
   </div>
-
 </section>
-
-      <section id='about-html'>
-        <h1>HTML</h1>
-      </section>
-      <section id='about-css'>
-
-      </section>
-      <section id='about-js'>
-
-      </section>
-      <section id='about-react'>
-
-      </section>
     </div>
   )
 }
